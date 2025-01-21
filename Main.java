@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         System.out.println("Hello Everyone");
@@ -26,8 +27,17 @@ public class Main {
 
         int num = 10/3;
 
-        System.out.println(num);
-        System.out.println(e);
+        // System.out.println(num);
+        // System.out.println(e);
+        // System.out.println(age);
+        // JRE - Java runtime Environment
 
+        Scanner myobj = new Scanner(System.in);
+        
+        String name = myobj.nextLine();
+        System.out.println(name);
+
+        // float a= myobj.nextFloat();
+        // System.out.println("The number is "+a);
     }
 }
